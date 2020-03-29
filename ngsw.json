@@ -1,0 +1,156 @@
+{
+  "configVersion": 1,
+  "timestamp": 1585517658726,
+  "appData": {
+    "version": "2.0.0",
+    "changelog": "Caching bereits abgerufener Bücher."
+  },
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/4-es2015.8157147ef275d1285d74.js",
+        "/4-es5.ec6575e165e24bd891fe.js",
+        "/5-es2015.cd5e4bd18b7d0e362d2e.js",
+        "/5-es5.e151534d5dbdfabe96c3.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main-es2015.9509ad33a10528e07d85.js",
+        "/main-es5.43132e821696b27d9a23.js",
+        "/polyfills-es2015.e954256595c973372414.js",
+        "/polyfills-es5.943113ac054b16d954ae.js",
+        "/runtime-es2015.63c0d2badb602688d979.js",
+        "/runtime-es5.e64259ebd7109a7e2342.js",
+        "/styles.099164943c521cfa9c83.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/splashscreens/ipad_splash.png",
+        "/assets/splashscreens/ipadpro1_splash.png",
+        "/assets/splashscreens/ipadpro2_splash.png",
+        "/assets/splashscreens/ipadpro3_splash.png",
+        "/assets/splashscreens/iphone5_splash.png",
+        "/assets/splashscreens/iphone6_splash.png",
+        "/assets/splashscreens/iphoneplus_splash.png",
+        "/assets/splashscreens/iphonex_splash.png",
+        "/assets/splashscreens/iphonexr_splash.png",
+        "/assets/splashscreens/iphonexsmax_splash.png",
+        "/brand-icons.13db00b7a34fee4d819a.eot",
+        "/brand-icons.a046592bac8f2fd96e99.woff",
+        "/brand-icons.a1a749e89f578a49306e.svg",
+        "/brand-icons.c5ebe0b32dc1b5cc449a.ttf",
+        "/brand-icons.e8c322de9658cbeb8a77.woff2",
+        "/flags.9c74e172f87984c48ddf.png",
+        "/icons.0ab54153eeeca0ce0397.woff2",
+        "/icons.8e3c7f5520f5ae906c6c.eot",
+        "/icons.962a1bf31c081691065f.svg",
+        "/icons.b87b9ba532ace76ae9f6.ttf",
+        "/icons.faff92145777a3cbaf8e.woff",
+        "/outline-icons.701ae6abd4719e9c2ada.eot",
+        "/outline-icons.82f60bd0b94a1ed68b1e.svg",
+        "/outline-icons.ad97afd3337e8cda302d.ttf",
+        "/outline-icons.cd6c777f1945164224de.woff2",
+        "/outline-icons.ef60a4f6c25ef7f39f2d.woff"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "Books",
+      "patterns": [
+        "\\/secure\\/books",
+        "\\/secure\\/books\\/search\\/.*",
+        "\\/secure\\/book\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 50,
+      "maxAge": 93600000,
+      "timeoutMs": 2000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/4-es2015.8157147ef275d1285d74.js": "2cbe591ea753114367454abbb4f5d95eeb79aab0",
+    "/4-es5.ec6575e165e24bd891fe.js": "a6e0c6d1dcd5321b2a55d1d10eee1012716a1f4a",
+    "/5-es2015.cd5e4bd18b7d0e362d2e.js": "1c9c6330c3ff45dd2b8b53fa5e5a69e895439721",
+    "/5-es5.e151534d5dbdfabe96c3.js": "0839ce97e55abac200ca8184660675021e233240",
+    "/assets/icons/icon-128x128.png": "1d9c986693e12bd192a7f8dd9f936f8d162188d7",
+    "/assets/icons/icon-144x144.png": "8ab47def0a64cc8534f0de142914e95edf9ad79e",
+    "/assets/icons/icon-152x152.png": "19b6a53c55569d347a25bec5129ecde5b8a820d4",
+    "/assets/icons/icon-192x192.png": "4bfa391a3dafd620bad63cb524e2bef0eeccb42d",
+    "/assets/icons/icon-384x384.png": "3d25487ba7da29579bcb5035d2e6a6b5f14c6a04",
+    "/assets/icons/icon-512x512.png": "8e406ce4a7f3f45c86bc35e22c5f4fac07b3bf8b",
+    "/assets/icons/icon-72x72.png": "1d0793475407bbd1230f9efe7e6fc6251bc32541",
+    "/assets/icons/icon-96x96.png": "9a18d424a62aa921405c1e64c178ea17d67478c2",
+    "/assets/splashscreens/ipad_splash.png": "1ff89e3a7bab5dd9c315d91d7aa3e5d2f9484d84",
+    "/assets/splashscreens/ipadpro1_splash.png": "dbccc708456ee250073a6ac9ec77be7d0fd47c65",
+    "/assets/splashscreens/ipadpro2_splash.png": "caa4ca8b74095fa2f2ef200c950c6fbf0bea9413",
+    "/assets/splashscreens/ipadpro3_splash.png": "1b57e4ad80ee75421586df5753b99259eb35221c",
+    "/assets/splashscreens/iphone5_splash.png": "e38a0156050100b8c2a6faf67eea11b3d6d4a2af",
+    "/assets/splashscreens/iphone6_splash.png": "6e462ce2fc0125bc25f9ee3a62fdd15283385df3",
+    "/assets/splashscreens/iphoneplus_splash.png": "6f15d6cfc5893eafa76b872f2eb01712094f6b5b",
+    "/assets/splashscreens/iphonex_splash.png": "f8180a80aff007c6c0ae82008b34a5fb6461a508",
+    "/assets/splashscreens/iphonexr_splash.png": "44ecfffb96a2c67bae49e9b3283f1389aac23711",
+    "/assets/splashscreens/iphonexsmax_splash.png": "7f9601da32208797d5a21d678d308cb78db90e65",
+    "/brand-icons.13db00b7a34fee4d819a.eot": "71095026a53b66beb9465bea1e73f910dcae19d5",
+    "/brand-icons.a046592bac8f2fd96e99.woff": "bb17cde5f1519a4e36b89383ff7e778a168f4933",
+    "/brand-icons.a1a749e89f578a49306e.svg": "1984f7fb24242adbb4186f4ff3d27d75cf0a248c",
+    "/brand-icons.c5ebe0b32dc1b5cc449a.ttf": "3f8221e9e98b788df278149907648fbe042e7bc1",
+    "/brand-icons.e8c322de9658cbeb8a77.woff2": "db06af71da4197a4e1bd553d124725a8081c13f0",
+    "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/flags.9c74e172f87984c48ddf.png": "4a552ecb123ded5040ddda01d626103cc65db055",
+    "/icons.0ab54153eeeca0ce0397.woff2": "6ec6d36cb2464b4e821cfabb532f310bd342601c",
+    "/icons.8e3c7f5520f5ae906c6c.eot": "b7de2e1d65766852486de24b36a46240f4ae5994",
+    "/icons.962a1bf31c081691065f.svg": "ebcf4cc735912d8da1ab2395738b7950df3df9ff",
+    "/icons.b87b9ba532ace76ae9f6.ttf": "cedd7227091b22f873e3856d84c3dfd974745048",
+    "/icons.faff92145777a3cbaf8e.woff": "9c293328f39dc54bd654d273d0cc5af0d11905c6",
+    "/index.html": "928a8e7bc4137187a7a6962c4cb136c740b3c271",
+    "/main-es2015.9509ad33a10528e07d85.js": "af180048c65ee26288c370444ddb3dfe7d2b7f67",
+    "/main-es5.43132e821696b27d9a23.js": "649abfb40ca5893ecd79eb58983802a8996bcbfc",
+    "/outline-icons.701ae6abd4719e9c2ada.eot": "983434f5c40d4aebc159953a99948a9f1d867353",
+    "/outline-icons.82f60bd0b94a1ed68b1e.svg": "3cdd832299463d7ea83743f7ff5b7a937626dcd0",
+    "/outline-icons.ad97afd3337e8cda302d.ttf": "7f80f427d3dee7d4ff27a1546b4ad5acd9810a88",
+    "/outline-icons.cd6c777f1945164224de.woff2": "e5b717fe5d8f54038e432721dd530e7da505447b",
+    "/outline-icons.ef60a4f6c25ef7f39f2d.woff": "75e53a093de3a9f82a4098a8a1066fc8740bc284",
+    "/polyfills-es2015.e954256595c973372414.js": "ae2d1da695b0816436f21ff43f857a42b11a4e17",
+    "/polyfills-es5.943113ac054b16d954ae.js": "042d7744ef82a64c73310f1db253736731a03950",
+    "/runtime-es2015.63c0d2badb602688d979.js": "f49e882a65ba8e444e2498cdbc2a63e88c413e4c",
+    "/runtime-es5.e64259ebd7109a7e2342.js": "aecb756a19f86656eb1d754d0a4b96837593e972",
+    "/styles.099164943c521cfa9c83.css": "bc2204f69f572edd829e21df21e2314bb2365811"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}

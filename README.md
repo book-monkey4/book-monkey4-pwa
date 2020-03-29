@@ -1,0 +1,46 @@
+# BookMonkey 4 PWA
+
+This project is based on the [BookMonkey 4 (iteration7, i18n)](https://github.com/book-monkey4/iteration-7-i18n).
+It features a Progressive Web App (PWA) using the `@angular/pwa` package.
+
+## Build and serve the PWA
+
+To build the PWA, run the build in production mode: `ng build --prod`. After that you can serve the production ready app using the `angular-http-server`:
+
+```bash
+npx angular-http-server --path=dist/BookMonkey
+```
+
+`angular-http-server` provides a simple web server, such as `http-server`.
+The key difference is that all unknown paths will automatically be resolved to `index.html` so we can start the application with any dynamic route we want.
+
+> Please be aware to use icognito tabs during development for testing the PWA. This is necessary to be sure that you won't see cached data when changing the PWA's behaviour and loading the app in the browser.
+
+You can use the Chrome Developer Tools to simulate an offline behaviour.
+
+![Screenshot BookMonkey PWA, activate offline mode in Google Chrome Developer Tools](assets/bm-pwa-offline.png)
+
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

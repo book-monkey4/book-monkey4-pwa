@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1585517658726,
+  "timestamp": 1587130727428,
   "appData": {
     "version": "2.0.0",
     "changelog": "Caching bereits abgerufener Bücher."
@@ -24,7 +24,7 @@
         "/polyfills-es5.943113ac054b16d954ae.js",
         "/runtime-es2015.63c0d2badb602688d979.js",
         "/runtime-es5.e64259ebd7109a7e2342.js",
-        "/styles.099164943c521cfa9c83.css"
+        "/styles.edc6bf1a15962ac155b2.css"
       ],
       "patterns": []
     },
@@ -121,7 +121,7 @@
     "/icons.962a1bf31c081691065f.svg": "ebcf4cc735912d8da1ab2395738b7950df3df9ff",
     "/icons.b87b9ba532ace76ae9f6.ttf": "cedd7227091b22f873e3856d84c3dfd974745048",
     "/icons.faff92145777a3cbaf8e.woff": "9c293328f39dc54bd654d273d0cc5af0d11905c6",
-    "/index.html": "928a8e7bc4137187a7a6962c4cb136c740b3c271",
+    "/index.html": "57ae230e6ae382b319140fbe1e808fcdd3a53c61",
     "/main-es2015.9509ad33a10528e07d85.js": "af180048c65ee26288c370444ddb3dfe7d2b7f67",
     "/main-es5.43132e821696b27d9a23.js": "649abfb40ca5893ecd79eb58983802a8996bcbfc",
     "/outline-icons.701ae6abd4719e9c2ada.eot": "983434f5c40d4aebc159953a99948a9f1d867353",
@@ -133,7 +133,7 @@
     "/polyfills-es5.943113ac054b16d954ae.js": "042d7744ef82a64c73310f1db253736731a03950",
     "/runtime-es2015.63c0d2badb602688d979.js": "f49e882a65ba8e444e2498cdbc2a63e88c413e4c",
     "/runtime-es5.e64259ebd7109a7e2342.js": "aecb756a19f86656eb1d754d0a4b96837593e972",
-    "/styles.099164943c521cfa9c83.css": "bc2204f69f572edd829e21df21e2314bb2365811"
+    "/styles.edc6bf1a15962ac155b2.css": "c95272038f16ec7b9a35412a8c8616d09747acc1"
   },
   "navigationUrls": [
     {

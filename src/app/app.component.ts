@@ -13,25 +13,31 @@ export class AppComponent implements OnInit {
 
   constructor(
     private swUpdate: SwUpdate,
-    private webNotificationService: WebNotificationService
+    private notificationService: WebNotificationService
   ) {}
 
   ngOnInit() {
     if (this.swUpdate.isEnabled) {
-      this.swUpdate.available.subscribe((evt) => {
-        const updateApp = window.confirm(`
-          Ein Update ist verfügbar (${evt.current.appData['version']} => ${evt.available.appData['version']}).
-          Änderungen: ${evt.current.appData['changelog']}
-          Wollen Sie das Update jetzt installieren?
-        `);
-        if (updateApp) { window.location.reload(); }
+      this.swUpdate.available.subscribe(e => {
+        const currentVersion = e.current.appData['version'];
+        const newVersion = e.available.appData['version'];
+        const changelog = e.current.appData['changelog'];
+        const confirmationText = `Ein Update ist verfügbar von ${currentVersion} zu ${newVersion}.
+        Änderungen: ${changelog}
+        Update installieren?`;
+
+        if (window.confirm(confirmationText)) {
+          window.location.reload();
+        }
       });
     }
-    this.permission = this.webNotificationService.isEnabled ? Notification.permission : null;
+    this.permission = this.notificationService.isEnabled
+      ? Notification.permission
+      : null;
   }
 
   subscribeToNotifications() {
-    this.webNotificationService.subscribeToNotifications()
+    this.notificationService.subscribeToNotifications()
       .then(() => this.permission = Notification.permission);
   }
 }

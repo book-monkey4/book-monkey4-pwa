@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1587215571718,
+  "timestamp": 1587891927702,
   "appData": {
     "version": "2.0.0",
     "changelog": "Caching bereits abgerufener Bücher."
@@ -14,17 +14,17 @@
       "urls": [
         "/4-es2015.8157147ef275d1285d74.js",
         "/4-es5.ec6575e165e24bd891fe.js",
-        "/5-es2015.cd5e4bd18b7d0e362d2e.js",
-        "/5-es5.e151534d5dbdfabe96c3.js",
+        "/5-es2015.792e812db7aa8c6036e2.js",
+        "/5-es5.52dd8f4853f874b4bca1.js",
         "/favicon.ico",
         "/index.html",
         "/main-es2015.e28215994b143f7d74b9.js",
         "/main-es5.ab16696e57376cfbe816.js",
         "/polyfills-es2015.e954256595c973372414.js",
         "/polyfills-es5.943113ac054b16d954ae.js",
-        "/runtime-es2015.63c0d2badb602688d979.js",
-        "/runtime-es5.e64259ebd7109a7e2342.js",
-        "/styles.bb46a76cbdfae8a7a668.css"
+        "/runtime-es2015.328d3af082b968f1ea33.js",
+        "/runtime-es5.f591f20e812e014f867b.js",
+        "/styles.85e516e3a4cf10f06e3b.css"
       ],
       "patterns": []
     },
@@ -89,8 +89,8 @@
   "hashTable": {
     "/4-es2015.8157147ef275d1285d74.js": "2cbe591ea753114367454abbb4f5d95eeb79aab0",
     "/4-es5.ec6575e165e24bd891fe.js": "a6e0c6d1dcd5321b2a55d1d10eee1012716a1f4a",
-    "/5-es2015.cd5e4bd18b7d0e362d2e.js": "1c9c6330c3ff45dd2b8b53fa5e5a69e895439721",
-    "/5-es5.e151534d5dbdfabe96c3.js": "0839ce97e55abac200ca8184660675021e233240",
+    "/5-es2015.792e812db7aa8c6036e2.js": "4224b04a14758fc9f8902e34b97f8ac288e34806",
+    "/5-es5.52dd8f4853f874b4bca1.js": "03208616c7713435647ec90efc7645fe54401c0b",
     "/assets/icons/icon-128x128.png": "1d9c986693e12bd192a7f8dd9f936f8d162188d7",
     "/assets/icons/icon-144x144.png": "8ab47def0a64cc8534f0de142914e95edf9ad79e",
     "/assets/icons/icon-152x152.png": "19b6a53c55569d347a25bec5129ecde5b8a820d4",
@@ -121,7 +121,7 @@
     "/icons.962a1bf31c081691065f.svg": "ebcf4cc735912d8da1ab2395738b7950df3df9ff",
     "/icons.b87b9ba532ace76ae9f6.ttf": "cedd7227091b22f873e3856d84c3dfd974745048",
     "/icons.faff92145777a3cbaf8e.woff": "9c293328f39dc54bd654d273d0cc5af0d11905c6",
-    "/index.html": "818d17fa2f1d86e7c5058f11a3eebabe30d4464b",
+    "/index.html": "c9a66132c37433cd53d6b86cde6ec025a61c70f5",
     "/main-es2015.e28215994b143f7d74b9.js": "407e7ab306449c1e03d85124b648b54dd8e12b51",
     "/main-es5.ab16696e57376cfbe816.js": "fc2aa284d9e37ff7bbb5bd9205d92cf805a03aa1",
     "/outline-icons.701ae6abd4719e9c2ada.eot": "983434f5c40d4aebc159953a99948a9f1d867353",
@@ -131,9 +131,9 @@
     "/outline-icons.ef60a4f6c25ef7f39f2d.woff": "75e53a093de3a9f82a4098a8a1066fc8740bc284",
     "/polyfills-es2015.e954256595c973372414.js": "ae2d1da695b0816436f21ff43f857a42b11a4e17",
     "/polyfills-es5.943113ac054b16d954ae.js": "042d7744ef82a64c73310f1db253736731a03950",
-    "/runtime-es2015.63c0d2badb602688d979.js": "f49e882a65ba8e444e2498cdbc2a63e88c413e4c",
-    "/runtime-es5.e64259ebd7109a7e2342.js": "aecb756a19f86656eb1d754d0a4b96837593e972",
-    "/styles.bb46a76cbdfae8a7a668.css": "c95272038f16ec7b9a35412a8c8616d09747acc1"
+    "/runtime-es2015.328d3af082b968f1ea33.js": "54b022015e01357cee769a0e11505d5decb4c320",
+    "/runtime-es5.f591f20e812e014f867b.js": "d09a8f4abdd981d83762488ecadaea5d56901909",
+    "/styles.85e516e3a4cf10f06e3b.css": "bc2204f69f572edd829e21df21e2314bb2365811"
   },
   "navigationUrls": [
     {

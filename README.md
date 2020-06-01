@@ -8,7 +8,7 @@ It features a Progressive Web App (PWA) using the `@angular/pwa` package.
 To build the PWA, run the build in production mode: `ng build --prod`. After that you can serve the production ready app using the `angular-http-server`:
 
 ```bash
-npx angular-http-server --path=dist/BookMonkey
+npx angular-http-server --path=dist/book-monkey
 ```
 
 `angular-http-server` provides a simple web server, such as `http-server`.

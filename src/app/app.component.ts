@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
     private notificationService: WebNotificationService
   ) {}
 
-  ngOnInit() {
+  ngOnInit(): void {
     if (this.swUpdate.isEnabled) {
       this.swUpdate.available.subscribe(e => {
         const currentVersion = e.current.appData['version'];

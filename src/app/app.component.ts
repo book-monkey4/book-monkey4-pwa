@@ -21,7 +21,7 @@ export class AppComponent implements OnInit {
       this.swUpdate.available.subscribe(e => {
         const currentVersion = e.current.appData['version'];
         const newVersion = e.available.appData['version'];
-        const changelog = e.current.appData['changelog'];
+        const changelog = e.available.appData['changelog'];
         const confirmationText = `Ein Update ist verfügbar von ${currentVersion} zu ${newVersion}.
         Änderungen: ${changelog}
         Update installieren?`;

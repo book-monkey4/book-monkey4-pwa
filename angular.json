@@ -21,7 +21,12 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/manifest.json"
+              "src/manifest.json",
+              {
+                "glob": "**/*",
+                "input": "src/.well-known/",
+                "output": "/.well-known/"
+              }
             ],
             "styles": [
               "node_modules/semantic-ui-css/semantic.css",

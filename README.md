@@ -12,11 +12,11 @@ npx angular-http-server --path=dist/book-monkey
 ```
 
 `angular-http-server` provides a simple web server, such as `http-server`.
-The key difference is that all unknown paths will automatically be resolved to `index.html` so we can start the application with any dynamic route we want.
+The key difference is that all unknown paths will automatically be resolved to `index.html`, so we can start the application with any dynamic route we want.
 
-> Please be aware to use icognito tabs during development for testing the PWA. This is necessary to be sure that you won't see cached data when changing the PWA's behaviour and loading the app in the browser.
+> Please be aware to use incognito tabs during development for testing the PWA. This is necessary to be sure that you won't see cached data when changing the PWA's behavior and loading the app in the browser.
 
-You can use the Chrome Developer Tools to simulate an offline behaviour.
+You can use the Chrome Developer Tools to simulate an offline behavior.
 
 ![Screenshot BookMonkey PWA, activate offline mode in Google Chrome Developer Tools](assets/bm-pwa-offline.png)
 

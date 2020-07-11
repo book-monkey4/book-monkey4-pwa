@@ -14,8 +14,7 @@
           "/favicon.ico",
           "/index.html",
           "/*.css",
-          "/*.js",
-          "/.well-known/**"
+          "/*.js"
         ]
       }
     }, {

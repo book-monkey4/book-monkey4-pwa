@@ -15,9 +15,9 @@ describe('AppComponent', () => {
       declarations: [ AppComponent ],
       imports: [
         RouterTestingModule,
-        HttpClientTestingModule
-      ]
-    });
+        HttpClientTestingModule,
+      ],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

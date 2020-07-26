@@ -21,9 +21,9 @@ describe('BookFormComponent', () => {
     subtitle: 'something',
     thumbnails: [{
       title: 'my title',
-      url: 'https://via.placeholder.com/150'
+      url: 'https://via.placeholder.com/150',
     }],
-    description: 'lorem ipsum dolor sit amet...'
+    description: 'lorem ipsum dolor sit amet...',
   };
 
   const emptyBookData: Book = {
@@ -34,9 +34,9 @@ describe('BookFormComponent', () => {
     subtitle: '',
     thumbnails: [{
       title: '',
-      url: ''
+      url: '',
     }],
-    description: ''
+    description: '',
   };
 
   beforeEach(async(() => {
@@ -48,7 +48,7 @@ describe('BookFormComponent', () => {
         HttpClientTestingModule,
         ReactiveFormsModule
       ]
-    });
+    }).compileComponents();
   }));
 
   beforeEach(() => {

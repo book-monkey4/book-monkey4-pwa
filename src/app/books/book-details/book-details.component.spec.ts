@@ -60,24 +60,24 @@ describe('BookDetailsComponent', () => {
       imports: [
         RouterTestingModule.withRoutes([
           { path: ':isbn', component: BookDetailsComponent }
-        ])
-      ]
-    });
+        ]),
+      ],
+    }).compileComponents();
   }));
 
-  beforeEach(async(() => {
-    TestBed.createComponent(TestOutletComponent);
+  beforeEach(() => {
     fixture = TestBed.createComponent(BookDetailsComponent);
     component = fixture.componentInstance;
     nativeEl = fixture.nativeElement;
     fixture.detectChanges();
-  }));
+  });
 
   it('should fetch a single book', () => {
     expect(component.book.isbn).toBe('111');
   });
 
-  it('should convert rating number into an array', () => {
+  it('should show 4 stars', async ()  => {
+    await fixture.whenStable(); // because of DelayDirective
     const ratingEl = nativeEl.querySelectorAll('i.star');
     expect(ratingEl.length).toBe(4);
   });

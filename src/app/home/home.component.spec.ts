@@ -13,12 +13,15 @@ describe('HomeComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ HomeComponent, SearchComponent ],
+      declarations: [
+        HomeComponent,
+        SearchComponent,
+      ],
       imports: [
         RouterTestingModule,
-        HttpClientTestingModule
-      ]
-    });
+        HttpClientTestingModule,
+      ],
+    }).compileComponents();
   }));
 
   beforeEach(() => {
@@ -29,8 +32,8 @@ describe('HomeComponent', () => {
 
   it('should have a link to /books', () => {
     const debugElements = fixture.debugElement.queryAll(By.directive(RouterLinkWithHref));
-    const index = debugElements.findIndex(de => {
-      return de.properties['href'] === '/books';
+    const index = debugElements.findIndex((de) => {
+      return de.properties.href === '/books';
     });
     expect(index).toBeGreaterThan(-1);
   });

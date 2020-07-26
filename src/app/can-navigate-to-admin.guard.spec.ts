@@ -4,15 +4,13 @@ import { CanNavigateToAdminGuard } from './can-navigate-to-admin.guard';
 describe('CanNavigateToAdminGuard', () => {
   let navigateToAdminGuard: CanNavigateToAdminGuard;
 
-  beforeEach(async(() => {
+  beforeEach(() => {
     TestBed.configureTestingModule({
       providers: [
-        CanNavigateToAdminGuard
-      ]
+        CanNavigateToAdminGuard,
+      ],
     });
-  }));
 
-  beforeEach(() => {
     navigateToAdminGuard = TestBed.inject(CanNavigateToAdminGuard);
   });
 

@@ -28,16 +28,16 @@ describe('BookListItemComponent', () => {
         TestHostComponent,
         BookListItemComponent,
         IsbnPipe
-      ]
-    });
+      ],
+    }).compileComponents();
   }));
 
-  beforeEach(async(() => {
+  beforeEach(() => {
     fixture = TestBed.createComponent(TestHostComponent);
     testHost = fixture.componentInstance;
     nativeEl  = fixture.nativeElement.querySelector('bm-book-list-item');
     fixture.detectChanges();
-  }));
+  });
 
   it('should display the book input', () => {
     expect(nativeEl.textContent).toContain(testHost.b.isbn);

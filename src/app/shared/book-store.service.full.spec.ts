@@ -44,7 +44,7 @@ describe('BookStoreService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       imports: [HttpClientTestingModule],
-      providers: [BookStoreService]
+      providers: [BookStoreService],
     });
 
     // Inject http, test controller and service-under-test to be referenced by each test

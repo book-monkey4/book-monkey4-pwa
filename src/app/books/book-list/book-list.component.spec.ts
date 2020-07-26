@@ -55,7 +55,7 @@ describe('BookListComponent', () => {
           { path: ':isbn', component: TestDetailsComponent }
         ])
       ]
-    });
+    }).compileComponents();
   }));
 
   beforeEach(async(() => {

@@ -15,9 +15,9 @@ describe('EditBookComponent', () => {
       schemas: [ NO_ERRORS_SCHEMA ],
       imports: [
         HttpClientTestingModule,
-        RouterTestingModule
-      ]
-    });
+        RouterTestingModule,
+      ],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

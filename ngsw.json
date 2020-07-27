@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1595839968039,
+  "timestamp": 1595841254769,
   "appData": {
     "version": "2.0.0",
     "changelog": "Caching bereits abgerufener Bücher."
@@ -116,7 +116,7 @@
     "/brand-icons.6729d29753e000c17489.svg": "1984f7fb24242adbb4186f4ff3d27d75cf0a248c",
     "/brand-icons.cac87dc00c87a5d74711.woff": "bb17cde5f1519a4e36b89383ff7e778a168f4933",
     "/brand-icons.d68fa3e67dbb653a13ce.eot": "71095026a53b66beb9465bea1e73f910dcae19d5",
-    "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "/flags.99f63ae7a743f21ab308.png": "4a552ecb123ded5040ddda01d626103cc65db055",
     "/icons.38c6d8bab26db77d8c80.woff2": "6ec6d36cb2464b4e821cfabb532f310bd342601c",
     "/icons.425399f81e4ce7cbd967.woff": "9c293328f39dc54bd654d273d0cc5af0d11905c6",

@@ -60,8 +60,8 @@ describe('BookDetailsComponent', () => {
       imports: [
         RouterTestingModule.withRoutes([
           { path: ':isbn', component: BookDetailsComponent }
-        ]),
-      ],
+        ])
+      ]
     }).compileComponents();
   }));
 

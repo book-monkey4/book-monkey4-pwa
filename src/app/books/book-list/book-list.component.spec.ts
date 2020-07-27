@@ -58,12 +58,12 @@ describe('BookListComponent', () => {
     }).compileComponents();
   }));
 
-  beforeEach(async(() => {
+  beforeEach(() => {
     location = TestBed.inject(Location);
     fixture = TestBed.createComponent(BookListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
-  }));
+  });
 
   it('should display books', () => {
 

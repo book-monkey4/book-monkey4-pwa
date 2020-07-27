@@ -32,7 +32,7 @@ describe('HomeComponent', () => {
 
   it('should have a link to /books', () => {
     const debugElements = fixture.debugElement.queryAll(By.directive(RouterLinkWithHref));
-    const index = debugElements.findIndex((de) => {
+    const index = debugElements.findIndex(de => {
       return de.properties.href === '/books';
     });
     expect(index).toBeGreaterThan(-1);

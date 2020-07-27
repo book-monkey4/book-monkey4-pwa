@@ -5,6 +5,7 @@ import { By } from '@angular/platform-browser';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
 
 import { AppComponent } from './app.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
 
 describe('AppComponent', () => {
   let component: AppComponent;
@@ -15,7 +16,8 @@ describe('AppComponent', () => {
       declarations: [ AppComponent ],
       imports: [
         RouterTestingModule,
-        HttpClientTestingModule
+        HttpClientTestingModule,
+        ServiceWorkerModule.register('', {enabled: false})
       ]
     }).compileComponents();
   }));

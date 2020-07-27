@@ -1,5 +1,5 @@
 import { Component, DebugElement } from '@angular/core';
-import { TestBed, ComponentFixture, fakeAsync, tick, async } from '@angular/core/testing';
+import { TestBed, ComponentFixture, fakeAsync, async, tick } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 
 import { DelayDirective } from './delay.directive';
@@ -18,8 +18,8 @@ describe('DelayDirective', () => {
     TestBed.configureTestingModule({
       declarations: [
         TestDelayDirectiveComponent,
-        DelayDirective,
-      ],
+        DelayDirective
+      ]
     }).compileComponents();
   }));
 

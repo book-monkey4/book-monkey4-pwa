@@ -19,8 +19,8 @@ describe('HomeComponent', () => {
       ],
       imports: [
         RouterTestingModule,
-        HttpClientTestingModule,
-      ],
+        HttpClientTestingModule
+      ]
     }).compileComponents();
   }));
 

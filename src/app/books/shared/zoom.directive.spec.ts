@@ -19,7 +19,7 @@ describe('ZoomDirective', () => {
     TestBed.configureTestingModule({
       declarations: [
         TestZoomComponent,
-        ZoomDirective,
+        ZoomDirective
       ]
     }).compileComponents();
   }));

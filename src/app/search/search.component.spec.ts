@@ -44,11 +44,11 @@ describe('SearchComponent', () => {
       declarations: [ SearchComponent ],
       schemas: [ NO_ERRORS_SCHEMA ],
       imports: [
-        HttpClientTestingModule,
+        HttpClientTestingModule
       ],
       providers: [
         { provide: BookStoreService, useValue: bookStoreServiceStub }
-      ],
+      ]
     }).compileComponents();
   }));
 

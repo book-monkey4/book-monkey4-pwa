@@ -28,7 +28,7 @@ describe('BookListItemComponent', () => {
         TestHostComponent,
         BookListItemComponent,
         IsbnPipe
-      ],
+      ]
     }).compileComponents();
   }));
 

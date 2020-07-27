@@ -7,8 +7,8 @@ describe('CanNavigateToAdminGuard', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       providers: [
-        CanNavigateToAdminGuard,
-      ],
+        CanNavigateToAdminGuard
+      ]
     });
 
     navigateToAdminGuard = TestBed.inject(CanNavigateToAdminGuard);

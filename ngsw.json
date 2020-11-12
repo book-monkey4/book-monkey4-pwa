@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1605140635277,
+  "timestamp": 1605195413269,
   "appData": {
     "version": "2.0.0",
     "changelog": "Caching bereits abgerufener Bücher."

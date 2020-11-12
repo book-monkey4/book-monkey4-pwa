@@ -3,9 +3,9 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "allfront",
-      "package_name": "com.angular_buch.book_monkey4",
+      "package_name": "com.angular_buch.book_monkey4_pwa",
       "sha256_cert_fingerprints": [
-        "10:6E:A4:1B:C1:00:F4:92:35:36:53:18:8C:0D:8D:C9:A0:22:BD:3D:11:BC:5B:51:0D:B6:3E:2C:22:C2:D0:C4"
+        "3F:FC:38:04:8F:37:42:0C:0A:43:71:C6:90:64:7F:0C:4E:39:0F:EB:62:EE:0F:52:3B:90:FD:58:0E:71:0A:B6"
       ]
     }
   }

@@ -3,6 +3,11 @@ import { SwUpdate } from '@angular/service-worker';
 
 import { WebNotificationService } from './shared/web-notification.service';
 
+interface AppData {
+  version: string;
+  changelog: string;
+}
+
 @Component({
   selector: 'bm-root',
   templateUrl: './app.component.html',
@@ -19,11 +24,14 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     if (this.swUpdate.isEnabled) {
       this.swUpdate.available.subscribe(e => {
-        const currentVersion = e.current.appData['version'];
-        const newVersion = e.available.appData['version'];
-        const changelog = e.available.appData['changelog'];
-        const confirmationText = `Ein Update ist verfügbar von ${currentVersion} zu ${newVersion}.
-        Änderungen: ${changelog}
+        /* ⚠️ Unterschied zum Buch:
+        Das Objekt `e.current.appData` ist als `Object` typisiert und kann hier nicht typsicher verwendet werden.
+        Wir haben dafür das Interface `AppData` eingeführt (siehe oben), um die Objekte passend zu typisieren. */
+        const currentData = e.current.appData as AppData;
+        const availableData = e.available.appData as AppData;
+
+        const confirmationText = `Ein Update ist verfügbar von ${currentData.version} zu ${availableData.version}.
+        Änderungen: ${availableData.changelog}
         Update installieren?`;
 
         if (window.confirm(confirmationText)) {

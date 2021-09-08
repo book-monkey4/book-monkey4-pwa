@@ -1,4 +1,4 @@
-import { TestBed, async } from '@angular/core/testing';
+import { TestBed, waitForAsync } from '@angular/core/testing';
 import { CanNavigateToAdminGuard } from './can-navigate-to-admin.guard';
 
 describe('CanNavigateToAdminGuard', () => {
